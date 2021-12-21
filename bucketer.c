@@ -2,9 +2,9 @@
 #include <assert.h>
 
 struct CountsByUsage {
-  int lowCount;
-  int mediumCount;
-  int highCount;
+  global int lowCount;
+  global int mediumCount;
+  global int highCount;
 };
 
 struct CountsByUsage countBatteriesByUsage(const int* cycles, int nBatteries) {
